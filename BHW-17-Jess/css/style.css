@@ -1,0 +1,57 @@
+.logo-size{height: 150px; padding-left: 30px;}
+.mepic {height: 400px; float: right;}
+.inline-block {display: inline-block; vertical-align: top;}
+.logo {width: 23%; padding: 1%; text-align: center;}
+nav {width: 73%; padding: 1%;}
+ul {width:50%; margin-left:auto;}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row; /
+  }
+  
+  .flexContainer > div {
+    width: 33%;
+    margin: 0 10px;
+    padding: 100px;
+  }
+  
+  
+  .flexContainer > div img {
+    max-width: 100%;
+  }
+  
+  .flexContainer > div h1 {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  
+  .flexContainer > div p {
+    font-size: 16px;
+  }
+  
+  .flexContainer > div button {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 100px;
+  }
+.workGrid {
+    display: grid;
+  }
+  .workGrid div {
+    grid-area: area1;
+  }
+  .workGrid {
+    grid-template-rows: 100px 200px; 
+    grid-template-columns: 1fr 2fr; 
+  }
+  
+  .workGrid 
+
+@media only screen and (max-width:600) {}
+    
+}
